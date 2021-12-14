@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Project #4 Personal Site With Media</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
 <html>
 
 <head>
@@ -25,17 +35,15 @@
     </svg>
     </div>
     <div class="header-format">
-      <h1 class="tagline-text">Linking you with your Customers...</h1>
+      <h1 class="tagline-text tagline-mobile">Linking you with your Customers...</h1>
     </div>
   </nav>
-  <div id="intro">
-    <div>
-    <h2 class="about-me">About Me!</h2>
-    </div>
-    <div>
+  <div class="intro intro-mobile">
+    <div class="about-body">
+    <h2 class="about-me headings-mobile">About Me!</h2>
     <p class="body-text">Hello there! My name is Liz & I'm a Graphic Design student at EWU. I love to work on Logos, Websites, & Custom Graphics! I have experience with a few different design software like Adobe Illustrator, Photoshop, & Indesign, Figma, & CodePen. When I'm not designing, I'm most likely playing with my dogs or watching some basic reality tv show!</p>
     </div>
-    <span class="circle-icon">
+    <div class="circle-icon circle-mobile">
       <svg id="circles" width="226" height="226" viewBox="0 0 226 226" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="113" cy="113" r="113" fill="#EFD9D1" />
         <circle cx="113" cy="113" r="113" fill="#EFD9D1" />
@@ -44,65 +52,80 @@
         <circle cx="113.5" cy="113.5" r="88" stroke="#F4EEED" stroke-width="15" />
       </svg>
       <img id="profile-pic" src="https://i.imgur.com/sL1tbjv.jpg" alt="profile-pic">
-    </span>
+    </div>
   </div>
   <div id="portfolio">
-    <h2 class="customer-header">My Portfolio</h2>
+    <h2 class="customer-header headings-mobile">My Portfolio</h2>
     <div id="header-projects-layout">
       <div id="row-one">
-    <div class="row-one">
+    <div class="row-one billie">
     <img class="square-sizing" src="https://i.imgur.com/PNHvSUB.jpg" alt="billie-eilish">
     </div>
-    <div class="row-one">
+    <div class="row-one peter">
     <img class="peterpan" src="https://i.imgur.com/pa5qk6u.jpg" alt="peter-pan">
     </div>
-    <div class="row-one">
+    <div class="row-one taylor">
     <img class="square-sizing" src="https://i.imgur.com/GZlsyvz.jpg" alt="taylor-swift">
     </div>
       </div>
-    <div class="harley-format">
+    <div class="harley-format hq">
     <img class="harley" src="https://i.imgur.com/Ic0EEba.jpg" alt="harley-quinn">
       </div>
     </div>
   </div>
-    <h2 class="program-label">Program Experience:</h2>
+    <h2 class="program-label headings-mobile">Program Experience:</h2>
     <div id="program-logos">
-    <div class="illustrator logo">
+      <div class="program-layout">
+    <div class="logo">
     <img class="program-logos" src="http://www.adobe-students.com/content/dam/cc/us/en/products/ccoverview/ai_cc_app_RGB.svg" alt="illustrator-logo">
     </div>
     <div class="illustrator-text text">
-      <p class="program-descriptions"><span class="program-titles">Adobe Illustrator: </span>Logos & Vector Graphics.</p>
+      <p class="program-descriptions"><span class="program-titles">Illustrator:</span>
+      <div class="program-descriptions">Logos, Digital Illustrations, and Vector Graphics.</div></p>
     </div>
-      <div class="figma logo">
+      </div>
+      <div class="program-layout">
+      <div class="logo">
     <img class="program-logos" src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="figma-logo">
     </div>
     <div class="figma-text text">
-      <p class="program-descriptions"><span class="program-titles">Figma: </span>User Based Design-Apps & Website Mock-ups, etc.</p>
+      <p class="program-descriptions"><span class="program-titles">Figma:</span>
+      <div class="program-descriptions">User Based Design-Apps & Website Mock-ups, etc.</div></p>
     </div>
-    <div class="indesign logo">
+      </div>
+      <div class="program-layout">
+    <div class="logo">
     <img class="program-logos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Adobe_InDesign_CC_icon.svg/512px-Adobe_InDesign_CC_icon.svg.png" alt="indesign-logo">
     </div>
     <div class="indesign-text text">
-      <p class="program-descriptions"><span class="program-titles">Adobe InDesign: </span>Documents like Brochures, Books, etc.</p>
+      <p class="program-descriptions"><span class="program-titles">InDesign:</span>
+      <div class="program-descriptions">Professional-looking Prints like Books, Brochures and more!</div></p>
     </div>
-    <div class="codepen logo">
+      </div>
+      <div class="program-layout">
+    <div class="logo">
     <img class="program-logos" src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png" alt="codepen-logo">
       </div>
     <div class="codepen-text text">
-      <p class="program-descriptions"><span class="program-titles">CodePen: </span>Coding Websites with HTML, CSS, & JavaScript</p>
+      <p class="program-descriptions"><span class="program-titles">CodePen: </span>
+        <div class="program-descriptions">Website Coding using HTML, CSS, and JavaScript.</div></p>
     </div>
-      <div class="photoshop logo">
+      </div>
+      <div class="program-layout">
+      <div class="logo">
     <img class="program-logos" src="http://www.adobe-students.com/content/dam/cc/us/en/products/ccoverview/ps_cc_app_RGB.svg" alt="photoshop-logo">
     </div>
     <div class="photoshop-text text">
-      <p class="program-descriptions"><span class="program-titles">Adobe Photoshop: </span>Photo Editing & Raster Graphics.</p>
+      <p class="program-descriptions"><span class="program-titles">Photoshop:</span>
+      <div class="program-descriptions">Photo Editing and Raster Graphics.</div></p>
     </div>
+      </div>
   </div>
   <div id="footer-bg">
-    <h1 class="footer-label">Get in Touch!</h1>
+    <h1 class="footer-label">Contact Info</h1>
     <div id="footer">
-    <div class="location-icon icons">
-    <svg width="53" height="54" viewBox="0 0 53 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <div class="footer-layout location">
+    <svg class="locate" width="53" height="54" viewBox="0 0 53 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_128_24)">
 <path d="M26.125 52.7035C40.2862 52.7035 51.766 41.2237 51.766 27.0625C51.766 12.9014 40.2862 1.42151 26.125 1.42151C11.9639 1.42151 0.484009 12.9014 0.484009 27.0625C0.484009 41.2237 11.9639 52.7035 26.125 52.7035Z" fill="#F4EEED" stroke="#999B84" stroke-miterlimit="10"/>
 <path d="M26.1251 27.2077C29.6533 27.2077 32.5135 24.3475 32.5135 20.8193C32.5135 17.291 29.6533 14.4308 26.1251 14.4308C22.5968 14.4308 19.7366 17.291 19.7366 20.8193C19.7366 24.3475 22.5968 27.2077 26.1251 27.2077Z" stroke="#999B84" stroke-linecap="round" stroke-linejoin="round"/>
@@ -114,8 +137,9 @@
 </clipPath>
 </defs>
 </svg>
-    </div>
-    <div class="mail-icon icons">
+          <p class="footer-contact locate">Spokane, WA!</p>
+      </div>
+        <div class="footer-layout mail">
     <svg width="54" height="53" viewBox="0 0 54 53" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_128_3)">
 <path d="M27.574 52.25C41.7351 52.25 53.215 40.7701 53.215 26.609C53.215 12.4478 41.7351 0.967957 27.574 0.967957C13.4129 0.967957 1.93298 12.4478 1.93298 26.609C1.93298 40.7701 13.4129 52.25 27.574 52.25Z" fill="#F4EEED" stroke="#999B84" stroke-miterlimit="10"/>
@@ -132,8 +156,9 @@
 </clipPath>
 </defs>
 </svg>
-    </div>
-    <div class="phone-icon icons">
+          <p class="footer-contact">elizabethwearmouth@icloud.com</p>
+      </div>
+      <div class="footer-layout phone">
       <svg width="53" height="54" viewBox="0 0 53 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_128_14)">
 <path d="M26.125 52.7035C40.2862 52.7035 51.766 41.2236 51.766 27.0625C51.766 12.9013 40.2862 1.42145 26.125 1.42145C11.9639 1.42145 0.484009 12.9013 0.484009 27.0625C0.484009 41.2236 11.9639 52.7035 26.125 52.7035Z" fill="#F4EEED" stroke="#999B84" stroke-miterlimit="10"/>
@@ -149,18 +174,14 @@
 </clipPath>
 </defs>
 </svg>
-    </div>
-    <div class="footer-contact location-text">
-      Located in Spokane, WA!
-    </div>
-    <div class="footer-contact email-text">
-      elizabethwearmouth@icloud.com
-    </div>
-    <div class="footer-contact phone-text">
-      (509)842-0682
-    </div>
+      <p class="footer-contact">(509)842-0682</p>
+      </div>
     </div>
   </div>
 </body>
 
+</html>
+<!-- partial -->
+  
+</body>
 </html>
