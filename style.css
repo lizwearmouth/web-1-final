@@ -6,7 +6,7 @@
 );
 
 /* mobile sizing*/
-@media (min-width: 30em) and (max-width: 60em) {
+@media (min-width: 20em) and (max-width: 60em) {
   html,
   body {
     margin: 0;
